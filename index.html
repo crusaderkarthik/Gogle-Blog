@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gogle News</title>
+
+	<style type="text/css">
+		header{
+			padding: 20px 0px;
+			box-shadow: 2px 2px 15px var(--black);
+		}
+
+		.container{
+			width: 1000px;
+			max-width: 100%;
+			margin: 0 auto;
+		}
+
+		.div-1{
+			width: 50%;
+			float: left;
+		}
+
+		.logo{
+			font-weight: bold;
+			font-size: 25px;
+		}
+
+		.menu{
+			float: right;
+		}
+
+		.menu li{
+			list-style: none;
+			float: left;
+			padding: 3px 20px;
+		}
+
+		.menu li a{
+			text-decoration: none;
+			color: black;
+		}
+
+		.menu li button{
+			    margin-top: -5px;
+    			padding: 7px 15px;
+    			color: white;
+    			border: none;
+    			border-radius: 35px;
+    			cursor: pointer;
+		}
+
+		.clearfix{
+			clear: both;
+		}
+
+		.banner-section{
+			background: var(--main);
+			height: 400px;
+			overflow: hidden;
+		}
+
+		.heading1{
+			font-size: 40px;
+			letter-spacing: 1px;
+			margin-top: 14%;
+		}
+
+		.p1{
+			/*color: white;*/
+			width: 390px;
+			margin-top: 20px;
+			margin-bottom: 20px;
+			letter-spacing: 1px;
+			font-size: 14px;
+		}
+
+		.input-box{
+			box-shadow: 1px 5px 8px var(--black);
+			width: 390px;
+			border-radius: 50%;
+		}
+
+		.input-box input[type="text"]{
+			padding: 9px;
+			width: 265px;
+			border: none;
+			border-radius: 5px;
+			outline: none;
+		}
+
+		.input-box button{
+			padding: 10px 27px;
+			border-radius: 0px 5px 5px 0px;
+			border: none;
+			margin-left: -6px;
+			background: var(--darkblue);
+			/*color: white;*/
+			cursor: pointer;
+		}
+
+		.ban-img{
+			width: 250px;
+			margin-bottom: -50px
+		}
+
+	</style>
+</head>
+<body>
+
+	<header>
+		<div class="container">
+			<div class="div-1">
+			<p class="logo">Gogle Blog</p>
+			</div>
+		
+		
+		<ul class="menu">
+			<li><a href="">Home</li>
+			<li><a href="">About Us</li>
+			<li><a href="">Contact</li>
+			<li><button><a href="">Call Us</button></a></li>
+		</ul>
+		<div class="clearfix"></div>
+		</div>
+
+	</header>
+
+<section class="banner-section">
+	<div class="container">
+		<div class="div-2">
+			<h1 class="heading1">Some Random Text</h1>
+			<p class="p1"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+			<div class="input-box">
+			<input type="text" placeholder="Enter your Email Address"><button>Submit</button>
+			</div>
+
+			<div class="image1">
+				<div style="text-align: center;">
+				<img src="images/1.png" class="ban-img">
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		
+
+	</div>
+</section>
+
+
+</body>
+</html>
